@@ -1,0 +1,25 @@
+{
+  "name": "dsisconeto/arch",
+  "authors": [
+    {
+      "name": "Dejair Sisconeto",
+      "email": "dejairsisconeto23@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DSisconeto\\Product\\": "product",
+      "DSisconeto\\Web\\": "Web",
+      "DSisconeto\\Tests\\": "test",
+      "DSisconeto\\Common\\": "common"
+    }
+  },
+  "require": {
+    "slim/slim": "^3.0",
+    "vlucas/phpdotenv": "^2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.4",
+    "mockery/mockery": "^1.2"
+  }
+}

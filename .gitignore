@@ -1,0 +1,6 @@
+/vendor
+.idea
+.vs
+.vscode
+
+/web/.env
